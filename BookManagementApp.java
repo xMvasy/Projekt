@@ -134,7 +134,7 @@ public class BookManagementApp extends JFrame {
         });
         buttonPanel.add(addButton);  
         buttonPanel.add(removeButton); 
-        panel.add(buttonPanel, BorderLayout.SOUTH); // Dodanie panelu z przyciskami do głównego panelu
+        panel.add(buttonPanel, BorderLayout.SOUTH);
 
         add(panel);
 
@@ -245,7 +245,7 @@ public class BookManagementApp extends JFrame {
         this.year = year;
         this.genre = genre;
     }
-    // Metody dostępowe do pól klasy
+    // Metody dostępowe do pod klasy
     public String getTitle() {
         return title;
     }
